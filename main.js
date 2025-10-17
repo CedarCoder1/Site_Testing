@@ -236,7 +236,7 @@ async function downloadFile(url, onProgress) {
     return new Blob(chunks);
 }
 
-// --- File Upload Initialization (Unchanged) ---
+// --- File Upload Initialization ---
 function initializeFileUpload() {
     const fileInput = document.getElementById('file-input');
     const fileDropArea = document.getElementById('file-drop-area');
